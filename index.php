@@ -34,6 +34,7 @@ if( is_home() && is_front_page() ):
 endif; ?>
 <div id="content" class="site-content">
 	<div class="container">
+		<h1>Hola mundo</h1>
 		<div class="row">
 			<div class="col-lg-9">
 				<div id="primary" class="content-area">
