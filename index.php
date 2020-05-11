@@ -17,7 +17,7 @@ get_header();
 $minimal_portfolio_post_slider_status = minimal_portfolio_get_option( 'minimal_portfolio_post_slider_status' );
 $minimal_portfolio_blog_sidebar_sticky = minimal_portfolio_get_option( 'minimal_portfolio_blog_sidebar_sticky' );
 
-if( is_home() && is_front_page() ):
+if( is_home() && is_front_page()):
 
 	if( $minimal_portfolio_post_slider_status ){
 	
