@@ -73,7 +73,7 @@
             <div class="col-md-6 col-lg-6 d-flex">
               <div class="img-about img d-flex align-items-stretch">
                 <div class="overlay"></div>
-                <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about.jpg);">
+                <div class="img d-flex align-self-stretch align-items-center" style="background-image:url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/about.jpg');">
                 </div>
               </div>
             </div>
@@ -111,19 +111,19 @@
         <div class="container">
           <div class="row">
             <div class="col-sm ftco-animate">
-              <a href="#" class="partner"><img src="images/partner-1.png" class="img-fluid" alt="Colorlib Template"></a>
+              <a href="#" class="partner"><img src="<?php echo base_url()?>minimal-portfolio/assets/resume/partner-1.png" class="img-fluid" alt="Colorlib Template"></a>
             </div>
             <div class="col-sm ftco-animate">
-              <a href="#" class="partner"><img src="images/partner-2.png" class="img-fluid" alt="Colorlib Template"></a>
+              <a href="#" class="partner"><img src="<?php echo base_url()?>minimal-portfolio/assets/resume/partner-2.png" class="img-fluid" alt="Colorlib Template"></a>
             </div>
             <div class="col-sm ftco-animate">
-              <a href="#" class="partner"><img src="images/partner-3.png" class="img-fluid" alt="Colorlib Template"></a>
+              <a href="#" class="partner"><img src="<?php echo base_url()?>minimal-portfolio/assets/resume/partner-3.png" class="img-fluid" alt="Colorlib Template"></a>
             </div>
             <div class="col-sm ftco-animate">
-              <a href="#" class="partner"><img src="images/partner-4.png" class="img-fluid" alt="Colorlib Template"></a>
+              <a href="#" class="partner"><img src="<?php echo base_url()?>minimal-portfolio/assets/resume/partner-4.png" class="img-fluid" alt="Colorlib Template"></a>
             </div>
             <div class="col-sm ftco-animate">
-              <a href="#" class="partner"><img src="images/partner-5.png" class="img-fluid" alt="Colorlib Template"></a>
+              <a href="#" class="partner"><img src="<?php echo base_url()?>minimal-portfolio/assets/resume/partner-5.png" class="img-fluid" alt="Colorlib Template"></a>
             </div>
           </div>
         </div>
@@ -570,7 +570,7 @@
           </div>
           <div class="row no-gutters">
             <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
+              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/work-1.jpg');">
                 <div class="overlay"></div>
                 <div class="text text-center p-4">
                   <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -579,7 +579,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.jpg);">
+              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/work-2.jpg');">
                 <div class="overlay"></div>
                 <div class="text text-center p-4">
                   <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -589,7 +589,7 @@
             </div>
   
             <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
+              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/work-3.jpg');">
                 <div class="overlay"></div>
                 <div class="text text-center p-4">
                   <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -598,7 +598,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-4.jpg);">
+              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/work-4.jpg');">
                 <div class="overlay"></div>
                 <div class="text text-center p-4">
                   <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -607,7 +607,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-5.jpg);">
+              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/work-5.jpg');">
                 <div class="overlay"></div>
                 <div class="text text-center p-4">
                   <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -616,7 +616,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-6.jpg);">
+              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/work-6.jpg');">
                 <div class="overlay"></div>
                 <div class="text text-center p-4">
                   <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -680,7 +680,7 @@
           <div class="row d-flex">
             <div class="col-md-4 d-flex ftco-animate">
               <div class="blog-entry justify-content-end">
-                <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+                <a href="single.html" class="block-20" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/image_1.jpg');">
                 </a>
                 <div class="text mt-3 float-right d-block">
                   <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
@@ -697,7 +697,7 @@
             </div>
             <div class="col-md-4 d-flex ftco-animate">
               <div class="blog-entry justify-content-end">
-                <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+                <a href="single.html" class="block-20" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/image_2.jpg');">
                 </a>
                 <div class="text mt-3 float-right d-block">
                   <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
@@ -714,7 +714,7 @@
             </div>
             <div class="col-md-4 d-flex ftco-animate">
               <div class="blog-entry">
-                <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+                <a href="single.html" class="block-20" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/image_3.jpg');">
                 </a>
                 <div class="text mt-3 float-right d-block">
                   <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
@@ -733,7 +733,7 @@
         </div>
       </section>
   
-      <section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.jpg)">
+      <section class="ftco-section ftco-hireme img" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/bg_1.jpg')">
         <div class="overlay"></div>
         <div class="container">
           <div class="row justify-content-center">
@@ -826,7 +826,8 @@
             </div>
   
             <div class="col-md-6 d-flex">
-              <div class="img" style="background-image: url(images/about.jpg);"></div>
+              <div class="img" style="background-image: url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/about.jpg');">
+              </div>
             </div>
           </div>
         </div>
