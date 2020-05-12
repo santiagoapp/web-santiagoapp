@@ -202,6 +202,12 @@ add_action( 'widgets_init', 'minimal_portfolio_widgets_init' );
  */
 function minimal_portfolio_scripts() {
 	
+	if ( is_page_template( 'single-resume' ) ) {
+    var_dump("Hola");
+  } else {
+    /** Call regular enqueue */
+	}
+	
 	//bootstrap rtl
 	if ( is_rtl() ){
         wp_enqueue_style( 'bootstrap-rtl', get_template_directory_uri() . '/assets/css/bootstrap-rtl.css');

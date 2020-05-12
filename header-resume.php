@@ -16,22 +16,6 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       
-      <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  
-      <link rel="stylesheet" href="assets/resume/css/open-iconic-bootstrap.min.css">
-      <link rel="stylesheet" href="assets/resume/css/animate.css">
-      
-      <link rel="stylesheet" href="assets/resume/css/owl.carousel.min.css">
-      <link rel="stylesheet" href="assets/resume/css/owl.theme.default.min.css">
-      <link rel="stylesheet" href="assets/resume/css/magnific-popup.css">
-  
-      <link rel="stylesheet" href="assets/resume/css/aos.css">
-  
-      <link rel="stylesheet" href="assets/resume/css/ionicons.min.css">
-      
-      <link rel="stylesheet" href="assets/resume/css/flaticon.css">
-      <link rel="stylesheet" href="assets/resume/css/icomoon.css">
-      <link rel="stylesheet" href="assets/resume/css/style.css">
       <?php wp_head(); ?>
     </head>
     <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
