@@ -73,7 +73,7 @@
             <div class="col-md-6 col-lg-6 d-flex">
               <div class="img-about img d-flex align-items-stretch">
                 <div class="overlay"></div>
-                <div class="img d-flex align-self-stretch align-items-center" style="background-image:url('<?php echo base_url()?>minimal-portfolio/assets/resume/images/about.jpg');">
+                <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(<?php echo base_url()?>minimal-portfolio/assets/resume/images/about.jpg);">
                 </div>
               </div>
             </div>
