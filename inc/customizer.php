@@ -61,7 +61,7 @@ function minimal_portfolio_customize_register( $wp_customize ) {
 
 	// header section
 	$wp_customize->add_section( 'minimal_single_template_section', 
-		array( 'title' => esc_html__( 'Single Template', 'minimal-temlate-section' ),
+		array( 'title' => esc_html__( 'Single Template', 'minimal-portfolio' ),
 			   'priority' => 100, 
 			   'capability' => 'edit_theme_options', 
 			   'panel' => 'theme_option_panel' 
