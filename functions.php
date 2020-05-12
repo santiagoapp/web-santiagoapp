@@ -205,7 +205,7 @@ function minimal_portfolio_scripts() {
 	global $post;
 	$post_slug=$post->post_name;
 		
-	var_dump(post_slug);
+	var_dump($post_slug);
 	
 	if ( is_page_template( 'single-resume' ) ) {
   } else {
