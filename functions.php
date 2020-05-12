@@ -202,10 +202,7 @@ add_action( 'widgets_init', 'minimal_portfolio_widgets_init' );
  */
 function minimal_portfolio_scripts() {
 	
-	global $post;
-	$post_slug=$post->post_name;
-		
-	var_dump($post_slug);
+	var_dump(get_page_template_slug(get_the_ID()));
 	
 	if ( is_page_template( 'single-resume' ) ) {
   } else {
