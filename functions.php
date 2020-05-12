@@ -207,6 +207,21 @@ function minimal_portfolio_scripts() {
 		wp_enqueue_style( 'resume-icomoon', get_template_directory_uri() . '/assets/resume/css/icomoon.css' );
 		wp_enqueue_style( 'resume-style', get_template_directory_uri() . '/assets/resume/css/style.css' );
 		
+		wp_enqueue_script( 'resuem-jquery', get_template_directory_uri() . '/assets/resume/js/jquery.min.js', array( '' ), '1.0', true );
+		wp_enqueue_script( 'resuem-jquery-migrate', get_template_directory_uri() . '/assets/resume/js/jquery-migrate-3.0.1.min.js', array( '' ), '1.0', true );
+		wp_enqueue_script( 'resuem-popper', get_template_directory_uri() . '/assets/resume/js/popper.min.js', array( '' ), '1.0', true );
+		wp_enqueue_script( 'resuem-bootstrap', get_template_directory_uri() . '/assets/resume/js/bootstrap.min.js', array( '' ), '1.0', true );
+		wp_enqueue_script( 'resuem-jquery-easing', get_template_directory_uri() . '/assets/resume/js/jquery.easing.1.3.js', array( '' ), '1.0', true );
+		wp_enqueue_script( 'resuem-jquery-waypoints', get_template_directory_uri() . '/assets/resume/js/jquery.waypoints.min.js', array( '' ), '1.0', true );
+		wp_enqueue_script( 'resuem-jquery-stellar', get_template_directory_uri() . '/assets/resume/js/jquery.stellar.min.js', array( '' ), '1.0', true );
+		// wp_enqueue_script( 'resuem-owl', get_template_directory_uri() . '/assets/resume/js/owl.carousel.min.js', array( '' ), '1.0', true );
+		wp_enqueue_script( 'resuem-owl', get_template_directory_uri() . '/assets/resume/js/owl.carousel.min.js', array( '' ), '1.0', true );
+		wp_enqueue_scipt( 'resuem-jquery-magnific', get_template_directory_uri() . '/assets/resume/js/jquery.magnific-popup.min.js', array( '' ), '1.0', true );
+		wp_enqueue_script( 'resuem-aos', get_template_directory_uri() . '/assets/resume/js/aos.js', array( '' ), '1.0', true );
+		wp_enqueuescript( 'resuem-jquery-animateNumber', get_template_directory_uri() . '/assets/resume/js/jquery.animateNumber.min.js', array( '' ), '1.0', true );
+		wp_enqueue_script( 'resuem-scrollax', get_template_directory_uri() . '/assets/resume/js/scrollax.min.js', array( '' ), '1.0', true );
+		wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/resume/js/main.js', array( '' ), '1.0', true );
+
   } else {
 		
 		//bootstrap rtl
@@ -230,6 +245,7 @@ function minimal_portfolio_scripts() {
 		$custom_css_color = theme_get_customizer_css();
 
 		wp_add_inline_style( 'minimal-portfolio-style', $custom_css_color );
+
 		wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js', array( 'jquery' ), '1.0', true );
 
 		wp_enqueue_script( 'jquery-owlcarousel', get_template_directory_uri() . '/assets/js/owl-carousel.js', array( 'jquery' ), '1.0', true );
