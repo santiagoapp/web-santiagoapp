@@ -180,6 +180,23 @@ function minimal_portfolio_widgets_init() {
 }
 add_action( 'widgets_init', 'minimal_portfolio_widgets_init' );
 
+// /**
+//  * Enqueue scripts and styles.
+//  */
+// function resume_scripts() {
+
+// 	wp_enqueue_style( 'resume-open', get_template_directory_uri() . '/assets/resume/css/open-iconic-bootstrap.min.css' );
+// 	wp_enqueue_style( 'resume-animate', get_template_directory_uri() . '/assets/resume/css/animate.css' );
+// 	wp_enqueue_style( 'resume-owl', get_template_directory_uri() . '/assets/resume/css/owl.carousel.min.css' );
+// 	wp_enqueue_style( 'resume-owl', get_template_directory_uri() . '/assets/resume/css/owl.theme.default.min.css' );
+// 	wp_enqueue_style( 'resume-magnific', get_template_directory_uri() . '/assets/resume/css/magnific-popup.css' );
+// 	wp_enqueue_style( 'resume-aos', get_template_directory_uri() . '/assets/resume/css/aos.css' );
+// 	wp_enqueue_style( 'resume-ionicons', get_template_directory_uri() . '/assets/resume/css/ionicons.min.css' );
+// 	wp_enqueue_style( 'resume-flaticon', get_template_directory_uri() . '/assets/resume/css/flaticon.css' );
+// 	wp_enqueue_style( 'resume-icomoon', get_template_directory_uri() . '/assets/resume/css/icomoon.css' );
+// 	wp_enqueue_style( 'resume-style', get_template_directory_uri() . '/assets/resume/css/style.css' );
+// }
+// add_action( 'wp_enqueue_scripts', 'resume_scripts' );
 /**
  * Enqueue scripts and styles.
  */
@@ -203,7 +220,9 @@ function minimal_portfolio_scripts() {
 	wp_enqueue_style( 'owlcarousel', get_template_directory_uri() . '/assets/css/owl-carousel.css' );
 	
 	wp_enqueue_style( 'minimal-portfolio-style', get_template_directory_uri() . '/style.css', array(), '1.0' );
-	$custom_css_color = theme_get_customizer_css();		wp_add_inline_style( 'minimal-portfolio-style', $custom_css_color );
+	$custom_css_color = theme_get_customizer_css();
+	
+	wp_add_inline_style( 'minimal-portfolio-style', $custom_css_color );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.js', array( 'jquery' ), '1.0', true );
 	
 	wp_enqueue_script( 'jquery-owlcarousel', get_template_directory_uri() . '/assets/js/owl-carousel.js', array( 'jquery' ), '1.0', true );
@@ -290,7 +309,20 @@ function minimal_portfolio_widget_tag_args( $args ){
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'minimal_portfolio_widget_tag_args');
-function theme_get_customizer_css() {    ob_start();    $page_title_bgcolor = minimal_portfolio_get_option( 'minimal_portfolio_page_title_bgcolor');    if ( ! empty( $page_title_bgcolor ) ) {      ?>      .page-header {        background: <?php echo $page_title_bgcolor; ?>;      }      <?php    }    $page_title_bgcolor_css = ob_get_clean();    return $page_title_bgcolor_css;} 
+function theme_get_customizer_css() {
+    ob_start();
+    $page_title_bgcolor = minimal_portfolio_get_option( 'minimal_portfolio_page_title_bgcolor');
+    if ( ! empty( $page_title_bgcolor ) ) {
+      ?>
+      .page-header {
+        background: <?php echo $page_title_bgcolor; ?>;
+      }
+      <?php
+    }
+    $page_title_bgcolor_css = ob_get_clean();
+    return $page_title_bgcolor_css;
+}
+ 
 /**
  * Use front-page.php when Front page displays is set to a static page.
  *

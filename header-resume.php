@@ -32,6 +32,7 @@
       <link rel="stylesheet" href="assets/resume/css/flaticon.css">
       <link rel="stylesheet" href="assets/resume/css/icomoon.css">
       <link rel="stylesheet" href="assets/resume/css/style.css">
+      <?php wp_head(); ?>
     </head>
     <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
       
