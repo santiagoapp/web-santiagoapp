@@ -68,8 +68,17 @@ function minimal_portfolio_customize_register( $wp_customize ) {
 		)
 	);
 
+	// sticky header setting.
+	$wp_customize->add_setting( 'minimal_portfolio_test_status',
+		array(
+			'default'           => false,
+			'capability'        => 'edit_theme_options',
+			'sanitize_callback' => 'minimal_portfolio_sanitize_checkbox',
+		)
+	);
+
 	// sticky header control
-	$wp_customize->add_control( 'minimal_portfolio_test',
+	$wp_customize->add_control( 'minimal_portfolio_test_status',
 		array(
 			'label'       => esc_html__( 'Test', 'minimal-portfolio' ),
 			'section'     => 'minimal_portfolio_single_template_section',
