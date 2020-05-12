@@ -216,9 +216,9 @@ function minimal_portfolio_scripts() {
 		wp_enqueue_script( 'resuem-jquery-stellar', get_template_directory_uri() . '/assets/resume/js/jquery.stellar.min.js', array( 'jquery' ), '1.0', true );
 		// wp_enqueue_script( 'resuem-owl', get_template_directory_uri() . '/assets/resume/js/owl.carousel.min.js', array( 'jquery' ), '1.0', true );
 		wp_enqueue_script( 'resuem-owl', get_template_directory_uri() . '/assets/resume/js/owl.carousel.min.js', array( 'jquery' ), '1.0', true );
-		wp_enqueue_scipt( 'resuem-jquery-magnific', get_template_directory_uri() . '/assets/resume/js/jquery.magnific-popup.min.js', array( 'jquery' ), '1.0', true );
+		wp_enqueue_script( 'resuem-jquery-magnific', get_template_directory_uri() . '/assets/resume/js/jquery.magnific-popup.min.js', array( 'jquery' ), '1.0', true );
 		wp_enqueue_script( 'resuem-aos', get_template_directory_uri() . '/assets/resume/js/aos.js', array( 'jquery' ), '1.0', true );
-		wp_enqueuescript( 'resuem-jquery-animateNumber', get_template_directory_uri() . '/assets/resume/js/jquery.animateNumber.min.js', array( 'jquery' ), '1.0', true );
+		wp_enqueue_script( 'resuem-jquery-animateNumber', get_template_directory_uri() . '/assets/resume/js/jquery.animateNumber.min.js', array( 'jquery' ), '1.0', true );
 		wp_enqueue_script( 'resuem-scrollax', get_template_directory_uri() . '/assets/resume/js/scrollax.min.js', array( 'jquery' ), '1.0', true );
 		wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/resume/js/main.js', array( 'jquery' ), '1.0', true );
 
