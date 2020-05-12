@@ -1,7 +1,7 @@
 <?php
 /*
- * Template Name: Featured Article
- * Template Post Type: post, page, product
+ * Template Name: Resume
+ * Template Post Type: page
  */
   
- get_header();  ?>
+ get_header('resume');  ?>
