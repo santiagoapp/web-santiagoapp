@@ -201,7 +201,7 @@ add_action( 'widgets_init', 'minimal_portfolio_widgets_init' );
  * Enqueue scripts and styles.
  */
 function minimal_portfolio_scripts() {
-	
+	echo(is_page_template( 'single-resume' ));
 	if ( is_page_template( 'single-resume' ) ) {
     var_dump("Hola");
   } else {
