@@ -93,7 +93,7 @@ jQuery(function($) {
 	});
 
 	$('.toc_toggle>a').click(function(){
-		$(this).addClass("w-100");
+		$('#toc_container').addClass("w-100");
 	});
 
 
