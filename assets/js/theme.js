@@ -92,8 +92,12 @@ jQuery(function($) {
 		}
 	});
 
+	let ev = $('.toc_toggle>a').data('events');
+
 	$('.toc_title').html(
 		"Contenido <span class='toc_toggle'>[<a href='#'>ocultar</a>]</span> "
 	); 
 	
+	$('.toc_toggle>a').data('events') = ev;
+
 });
