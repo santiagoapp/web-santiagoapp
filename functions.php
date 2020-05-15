@@ -133,8 +133,17 @@ add_action( 'after_setup_theme', 'minimal_portfolio_content_width', 0 );
  */
 function minimal_portfolio_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'minimal-portfolio' ),
-		'id'            => 'sidebar-1',
+	'name'          => esc_html__( 'Sidebar', 'minimal-portfolio' ),
+	'id'            => 'sidebar-1',
+		'description'   => esc_html__( 'Add widgets here.', 'minimal-portfolio' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	register_sidebar( array(
+	'name'          => esc_html__( 'New Sidebar', 'minimal-portfolio' ),
+	'id'            => 'sidebar-2',
 		'description'   => esc_html__( 'Add widgets here.', 'minimal-portfolio' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
