@@ -91,5 +91,11 @@ jQuery(function($) {
 			}
 		}
 	});
+
+	$('.toc_title').html(
+		"Contenido" + $('.toc_toggle').html(
+			"[" + $('.toc_toggle>a').html("Ocultar") + "]"
+		)
+	); 
 	
 });
