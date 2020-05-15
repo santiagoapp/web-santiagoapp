@@ -220,6 +220,19 @@ function minimal_portfolio_customize_register( $wp_customize ) {
 			   'priority' => 100 
 		) 
 	);
+
+	//footer linkedin setting.
+	$wp_customize->add_setting( 'minimal_portfolio_footer_linkedin_link', array( 'sanitize_callback' => 'esc_url_raw' ) );
+	
+	//footer linkedin control
+	$wp_customize->add_control( 'minimal_portfolio_footer_linkedin_link', 
+		array( 'label' => esc_html__( 'Linked In', 'minimal-portfolio' ),
+			   'description' =>  __( 'e.g: http://example.com', 'minimal-portfolio' ), 
+			   'section' => 'minimal_portfolio_footer_section', 
+			   'type' => 'url',
+			   'priority' => 100 
+		) 
+	);
 	
 	//post slider section
 	$wp_customize->add_section( 'minimal_portfolio_post_slider_section', 

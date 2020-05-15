@@ -62,6 +62,13 @@
 											<i class="fa fa-instagram" aria-hidden="true"></i>
 										</a>
 									</li>
+								<?php endif; ?>
+								<?php if( !empty( $minimal_portfolio_footer_linkedin_link ) ): ?>
+									<li class="linkedin list-inline-item">
+										<a href="<?php echo esc_url( $minimal_portfolio_footer_linkedin_link ); ?>">
+											<i class="fa fa-linkedin-in" aria-hidden="true"></i>
+										</a>
+									</li>
 								<?php endif; ?>	
 								</ul>
 							</li>
