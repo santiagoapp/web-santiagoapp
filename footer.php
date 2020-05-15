@@ -67,7 +67,7 @@
 								<?php if( !empty( $minimal_portfolio_footer_linkedin_link ) ): ?>
 									<li class="linkedin list-inline-item">
 										<a href="<?php echo esc_url( $minimal_portfolio_footer_linkedin_link ); ?>">
-											<i class="fa fa-linkedin-in" aria-hidden="true"></i>
+											<i class="fa fa-linkedin" aria-hidden="true"></i>
 										</a>
 									</li>
 								<?php endif; ?>	
