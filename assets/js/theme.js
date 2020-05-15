@@ -93,10 +93,11 @@ jQuery(function($) {
 	});
 
 	$('.toc_toggle>a').html("Ocultar")
-
+	console.log($('.toc_toggle>a').html())
+	
 	$('.toc_title').html(
 		"Contenido" + $('.toc_toggle').html(
-			"[" + $('.toc_toggle>a').text() + "]"
+			"[" + $('.toc_toggle>a').html() + "]"
 		)
 	); 
 	
