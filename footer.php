@@ -14,6 +14,7 @@
 	$minimal_portfolio_footer_twitter_link = minimal_portfolio_get_option( 'minimal_portfolio_footer_twitter_link' );	
 	$minimal_portfolio_footer_youtube_link = minimal_portfolio_get_option( 'minimal_portfolio_footer_youtube_link' );
 	$minimal_portfolio_footer_instagram_link = minimal_portfolio_get_option( 'minimal_portfolio_footer_instagram_link' );
+	$minimal_portfolio_footer_linkedin_link = minimal_portfolio_get_option( 'minimal_portfolio_footer_linkedin_link' );
 	$minimal_portfolio_backto_top_status = minimal_portfolio_get_option( 'minimal_portfolio_backto_top_status' );
 	$minimal_portfolio_copyright_author = minimal_portfolio_get_option( 'minimal_portfolio_copyright_author' );
 ?>
