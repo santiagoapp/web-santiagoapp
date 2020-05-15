@@ -92,13 +92,8 @@ jQuery(function($) {
 		}
 	});
 
-	$('.toc_toggle>a').html("Ocultar")
-	console.log($('.toc_toggle>a').html())
-	
 	$('.toc_title').html(
-		"Contenido" + $('.toc_toggle').html(
-			"[" + $('.toc_toggle>a').html() + "]"
-		)
+		"Contenido <span class='toc_toggle'>[<a href='#'>ocultar</a>]</span> "
 	); 
 	
 });
