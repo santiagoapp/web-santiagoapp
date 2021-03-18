@@ -14,7 +14,7 @@
   <!DOCTYPE html>
   <html lang="en">
     <head>
-      <title>Ronaldo - Free Bootstrap 4 Template by Colorlib</title>
+      <title>Santiagoapp - Resume</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       
@@ -25,7 +25,7 @@
       
       <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><span>R</span>onaldo</a>
+          <a class="navbar-brand" href="index.html"><span>S</span>antiagoapp</a>
           <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
           </button>
@@ -37,7 +37,6 @@
               <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
               <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
               <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-              <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
               <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
             </ul>
           </div>
@@ -50,12 +49,12 @@
             <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
               <div class="text text-center">
                 <span class="subheading">Hey! I am</span>
-                <h1>Ronaldo Fredrickson</h1>
+                <h1>Santiago Pereira</h1>
                   <h2>I'm a 
                     <span
                        class="txt-rotate"
                        data-period="2000"
-                       data-rotate='[ "Web Designer.", "Developer.", "Photographer.", "Marketer.", "Blogger" ]'></span>
+                       data-rotate='[ "App Designer.", "Developer.", "Photographer.", "Clouder.", "Blogger" ]'></span>
                   </h2>
                 </div>
               </div>
@@ -84,21 +83,22 @@
                 <div class="col-md-12 heading-section ftco-animate">
                   <h1 class="big">About</h1>
                   <h2 class="mb-4">About Me</h2>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <p>I'm a very curious, passionate and discipline worker, my skills are focused on tech industry such as computer programming, statistical inference analysis and data science, UX, UI full stack and serverless services.</p>
+                  <p>I also apply best practices such as SCRUM Agile and I used to work in several roles into project teams including leading although I love to develop, propose and carry on innovative ideas that make efficient process and improve results on critical decisions.</p>
+                  <p>My main skills are: JavaScript, PHP, python, R, React, and cloud computing: AWS, Google cloud and serverless paradigm.</p>
                   <ul class="about-info mt-4 px-md-0 px-2">
-                    <li class="d-flex"><span>Name:</span> <span>Ronaldo Fredrickson</span></li>
-                    <li class="d-flex"><span>Date of birth:</span> <span>November 28, 1989</span></li>
-                    <li class="d-flex"><span>Address:</span> <span>San Francisco CA 97987 USA</span></li>
-                    <li class="d-flex"><span>Zip code:</span> <span>1000</span></li>
-                    <li class="d-flex"><span>Email:</span> <span>ronaldo@gmail.com</span></li>
-                    <li class="d-flex"><span>Phone: </span> <span>+1-2234-5678-9-0</span></li>
+                    <li class="d-flex"><span>Name:</span> <span>Santiago Pereira</span></li>
+                    <li class="d-flex"><span>Date of birth:</span> <span>March 14, 1995</span></li>
+                    <li class="d-flex"><span>Address:</span> <span>Calle 75 No 82 65</span></li>
+                    <li class="d-flex"><span>Email:</span> <span>santiagoapp@gmail.com</span></li>
+                    <li class="d-flex"><span>Phone: </span> <span>+57-305 7842456</span></li>
                   </ul>
                 </div>
               </div>
               <div class="counter-wrap ftco-animate d-flex mt-md-3">
                 <div class="text">
                   <p class="mb-4">
-                    <span class="number" data-number="120">0</span>
+                    <span class="number" data-number="35">0</span>
                     <span>Project complete</span>
                   </p>
                   <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
@@ -113,19 +113,16 @@
         <div class="container">
           <div class="row">
             <div class="col-sm ftco-animate">
-              <a href="#" class="partner"><img src="<?php bloginfo( 'template_url' ) ?>minimal-portfolio/assets/resume/partner-1.png" class="img-fluid" alt="Colorlib Template"></a>
+              <a href="#" class="partner"><img src="https://technext.github.io/ronaldo/images/partner-1.png" class="img-fluid" alt="Colorlib Template"></a>
             </div>
             <div class="col-sm ftco-animate">
-              <a href="#" class="partner"><img src="minimal-portfolio/assets/resume/partner-2.png" class="img-fluid" alt="Colorlib Template"></a>
+              <a href="#" class="partner"><img src="https://technext.github.io/ronaldo/images/partner-2.png" class="img-fluid" alt="Colorlib Template"></a>
             </div>
             <div class="col-sm ftco-animate">
-              <a href="#" class="partner"><img src="minimal-portfolio/assets/resume/partner-3.png" class="img-fluid" alt="Colorlib Template"></a>
+              <a href="#" class="partner"><img src="https://technext.github.io/ronaldo/images/partner-4.png" class="img-fluid" alt="Colorlib Template"></a>
             </div>
             <div class="col-sm ftco-animate">
-              <a href="#" class="partner"><img src="minimal-portfolio/assets/resume/partner-4.png" class="img-fluid" alt="Colorlib Template"></a>
-            </div>
-            <div class="col-sm ftco-animate">
-              <a href="#" class="partner"><img src="minimal-portfolio/assets/resume/partner-5.png" class="img-fluid" alt="Colorlib Template"></a>
+              <a href="#" class="partner"><img src="https://technext.github.io/ronaldo/images/partner-5.png" class="img-fluid" alt="Colorlib Template"></a>
             </div>
           </div>
         </div>
@@ -140,22 +137,23 @@
                   <li><a href="#page-1">Education</a></li>
                   <li><a href="#page-2">Experience</a></li>
                   <li><a href="#page-3">Skills</a></li>
-                  <li><a href="#page-4">Awards</a></li>
+                  <li><a href="#page-4">Goals</a></li>
                 </ul>
               </nav>
             </div>
             <div class="col-md-9">
               <div id="page-1" class= "page one">
                 <h2 class="heading">Education</h2>
+
                 <div class="resume-wrap d-flex ftco-animate">
                   <div class="icon d-flex align-items-center justify-content-center">
                     <span class="flaticon-ideas"></span>
                   </div>
                   <div class="text pl-3">
-                    <span class="date">2014-2015</span>
-                    <h2>Bachelor of Science in Computer Science</h2>
-                    <span class="position">Cambridge University</span>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <span class="date">May 2020</span>
+                    <h2>Adobe XD Course</h2>
+                    <span class="position">Platzi</span>
+                    <p>Learn how to use Adobe XD to create prototypes, interface designs, and diagrams for the web or mobile. Master the Adobe XD design panels to create self-animations, add styles, and typographic elements. Optimize your work by taking advantage of the collaborative features of Adobe XD. <a href="https://platzi.com/p/santiago-pereira/curso/1637-adobe-xd/diploma/detalle/" target="_blank">More Information</a></p>
                   </div>
                 </div>
                 <div class="resume-wrap d-flex ftco-animate">
@@ -163,10 +161,10 @@
                     <span class="flaticon-ideas"></span>
                   </div>
                   <div class="text pl-3">
-                    <span class="date">2014-2015</span>
-                    <h2>Computer Processing Systems/Computer Software</h2>
-                    <span class="position">Cambridge University</span>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <span class="date">May 2020</span>
+                    <h2>React.js Course</h2>
+                    <span class="position">Platzi</span>
+                    <p>React is one of the most used libraries today to create web applications. Creation and design of components to bring data from an API. Develop very high quality web applications in record time with React.js. <a href="https://platzi.com/p/santiago-pereira/curso/1548-react/diploma/detalle/" target="_blank">More Information</a></p>
                   </div>
                 </div>
                 <div class="resume-wrap d-flex ftco-animate">
@@ -174,10 +172,10 @@
                     <span class="flaticon-ideas"></span>
                   </div>
                   <div class="text pl-3">
-                    <span class="date">2014-2015</span>
-                    <h2>Diploma in Computer</h2>
-                    <span class="position">Cambridge University</span>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <span class="date">May 2020</span>
+                    <h2>React Router & Redux Course</h2>
+                    <span class="position">Platzi</span>
+                    <p>Implement React Router to handle routes in your frontend projects. It also implements Redux, the JavaScript library used by Instagram to facilitate the development of interactive web applications. Master the effective and centralized management of "states" and implement the full flow of Redux. <a href="https://platzi.com/p/santiago-pereira/curso/1652-react-router-redux/diploma/detalle/" target="_blank">More Information</a></p>
                   </div>
                 </div>
                 <div class="resume-wrap d-flex ftco-animate">
@@ -185,10 +183,65 @@
                     <span class="flaticon-ideas"></span>
                   </div>
                   <div class="text pl-3">
-                    <span class="date">2014-2015</span>
-                    <h2>Art &amp; Creative Director</h2>
-                    <span class="position">Cambridge University</span>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <span class="date">April 2020</span>
+                    <h2>Git and GitHub Professional Course</h2>
+                    <span class="position">Platzi</span>
+                    <p>Learn to work with git, basic and advanced concepts, clone a repository and manage your projects by hosting them in your local repository and on GitHub. <a href="https://platzi.com/p/santiago-pereira/curso/1557-git-github/diploma/detalle/" target="_blank">More Information</a></p>
+                  </div>
+                </div>
+                <div class="resume-wrap d-flex ftco-animate">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="flaticon-ideas"></span>
+                  </div>
+                  <div class="text pl-3">
+                    <span class="date">April 2020</span>
+                    <h2>WordPress Practical Course</h2>
+                    <span class="position">Platzi</span>
+                    <p>Learn from how to install WordPress, how to configure it initially, to create your first plugin and enhance your HTML and CSS skills with this tool, create Web Applications with WordPress, understand what WordPress is and how to use it for Web development. <a href="https://platzi.com/@santiago-pereira/curso/1812-fundamentos-wordpress/diploma/detalle/" target="_blank">More Information</a></p>
+                  </div>
+                </div>
+                <div class="resume-wrap d-flex ftco-animate">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="flaticon-ideas"></span>
+                  </div>
+                  <div class="text pl-3">
+                    <span class="date">April 2020</span>
+                    <h2>Website Creation and Optimization with WordPress Course</h2>
+                    <span class="position">Platzi</span>
+                    <p>Build friendly and user-friendly websites with WordPress. Make sure your customers and followers find you easily and grow your brand exponentially, create web applications with WordPress, apply keyword studies, apply SEO techniques on a web page, include a web page in Google and Bing. <a href="https://platzi.com/p/santiago-pereira/curso/1433-seo-wordpress/diploma/detalle/" target="_blank">More Information</a></p>
+                  </div>
+                </div>
+                <div class="resume-wrap d-flex ftco-animate">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="flaticon-ideas"></span>
+                  </div>
+                  <div class="text pl-3">
+                    <span class="date">April 2020</span>
+                    <h2>Python Course</h2>
+                    <span class="position">Platzi</span>
+                    <p>Python is a fundamental piece of several major software systems in the world. Simple, clear and with readable code, Python is the quintessential language for web programming and data science.. <a href="https://platzi.com/p/santiago-pereira/curso/1104-python/diploma/detalle/" target="_blank">More Information</a></p>
+                  </div>
+                </div>
+                <div class="resume-wrap d-flex ftco-animate">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="flaticon-ideas"></span>
+                  </div>
+                  <div class="text pl-3">
+                    <span class="date">April 2020</span>
+                    <h2>Django Course</h2>
+                    <span class="position">Platzi</span>
+                    <p>Create websites easily. Learn about the connectivity and extensibility offered by the new Django components: the most used web development framework for Python today, use the Django ORM, use class based views, know the template system, customize the Django administrator. <a href="https://platzi.com/p/santiago-pereira/curso/1318-django/diploma/detalle/" target="_blank">More Information</a></p>
+                  </div>
+                </div>
+                <div class="resume-wrap d-flex ftco-animate">
+                  <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="flaticon-ideas"></span>
+                  </div>
+                  <div class="text pl-3">
+                    <span class="date">2012-now</span>
+                      <h2>Ingeniería Industrial</h2>
+                    <span class="position">Universidad Distrital Francisco José de Caldas</span>
+                    <p>I carry out my undergraduate studies in industrial engineering where I learned the conceptual bases of process design, digital product design and system optimization.</p>
                   </div>
                 </div>
               </div>
@@ -200,10 +253,10 @@
                     <span class="flaticon-ideas"></span>
                   </div>
                   <div class="text pl-3">
-                    <span class="date">2014-2015</span>
-                    <h2>Software Developer</h2>
-                    <span class="position">Cambridge University</span>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <span class="date">2017-2018</span>
+                    <h2>Engineering Assistant</h2>
+                    <span class="position">Flexilatina de Colombia</span>
+                    <p>Development of a system for monitoring, control, production planning and information analysis to improve the efficiency of production processes, developed in PHP laravel / backend vue js / Frontend.</p>
                   </div>
                 </div>
                 <div class="resume-wrap d-flex ftco-animate">
@@ -211,10 +264,10 @@
                     <span class="flaticon-ideas"></span>
                   </div>
                   <div class="text pl-3">
-                    <span class="date">2014-2015</span>
-                    <h2>Web Designer</h2>
-                    <span class="position">Cambridge University</span>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <span class="date">2017-2018</span>
+                    <h2>Serenamente App (Check on Play Store or App Store)</h2>
+                    <span class="position">Flexilatina de Colombia</span>
+                    <p>Participation in the development of Serenamente App as a full stack developer, from the definition and cloud architecture, the UX/UI and finally to the production launch in the Play Store and App Store.</p>
                   </div>
                 </div>
                 <div class="resume-wrap d-flex ftco-animate">
@@ -222,32 +275,12 @@
                     <span class="flaticon-ideas"></span>
                   </div>
                   <div class="text pl-3">
-                    <span class="date">2014-2015</span>
-                    <h2>Web Marketing</h2>
-                    <span class="position">Cambridge University</span>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                  </div>
-                </div>
-                <div class="resume-wrap d-flex ftco-animate">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="flaticon-ideas"></span>
-                  </div>
-                  <div class="text pl-3">
-                    <span class="date">2014-2015</span>
-                    <h2>Art &amp; Creative Director</h2>
-                    <span class="position">Side Tech</span>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                  </div>
-                </div>
-                <div class="resume-wrap d-flex ftco-animate">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="flaticon-ideas"></span>
-                  </div>
-                  <div class="text pl-3">
-                    <span class="date">2014-2015</span>
-                    <h2>Wordpress Developer</h2>
-                    <span class="position">Cambridge University</span>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <span class="date">2018-Now</span>
+                    <h2>Back Analyst</h2>
+                    <span class="position">Scotiabank Colpatria</span>
+                    <p>Development of our own framework that allows fast and agile standardization and automation of processes, the implementation of the framework took place throughout more than 20 processes achieving efficiencies of more than 80%, UI / UX implementation aligned with Scotiabank.</p>
+                    <p>Technical leader of automation project, where together with a team of 6 people we developed and implemented automation and process solutions that substantially reduced the delivery time of financial statements in the organization.</p>
+                    <p>I also apply best practices such as SCRUM Agile and I used to work in several roles into project teams including leading although I love to develop, propose and carry on innovative ideas that make efficient process and improve results on critical decisions</p>
                   </div>
                 </div>
                 <div class="resume-wrap d-flex ftco-animate">
@@ -265,6 +298,100 @@
               <div id="page-3" class= "page three">
                 <h2 class="heading">Skills</h2>
                 <div class="row progress-circle mb-5">
+                  <!-- tarjeta -->
+                  <div class="col-lg-4 mb-4">
+                    <div class="bg-white rounded-lg shadow p-4">
+                      <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
+  
+                      <!-- Progress bar 1 -->
+                      <div class="progress mx-auto" data-value='80'>
+                        <span class="progress-left">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                          <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+                        </div>
+                      </div>
+                      <!-- END -->
+  
+                      <!-- Demo info -->
+                      <div class="row text-center mt-4">
+                        <div class="col-6 border-right">
+                          <div class="h4 font-weight-bold mb-0">90%</div><span class="small text-gray">Last week</span>
+                        </div>
+                        <div class="col-6">
+                          <div class="h4 font-weight-bold mb-0">90%</div><span class="small text-gray">Last month</span>
+                        </div>
+                      </div>
+                      <!-- END -->
+                    </div>
+                  </div>
+                  <!-- tarjeta -->
+                  <div class="col-lg-4 mb-4">
+                    <div class="bg-white rounded-lg shadow p-4">
+                      <h2 class="h5 font-weight-bold text-center mb-4">Adobe Illustrator</h2>
+  
+                      <!-- Progress bar 1 -->
+                      <div class="progress mx-auto" data-value='80'>
+                        <span class="progress-left">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                          <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+                        </div>
+                      </div>
+                      <!-- END -->
+  
+                      <!-- Demo info -->
+                      <div class="row text-center mt-4">
+                        <div class="col-6 border-right">
+                          <div class="h4 font-weight-bold mb-0">80%</div><span class="small text-gray">Last week</span>
+                        </div>
+                        <div class="col-6">
+                          <div class="h4 font-weight-bold mb-0">80%</div><span class="small text-gray">Last month</span>
+                        </div>
+                      </div>
+                      <!-- END -->
+                    </div>
+                  </div>
+                  <!-- tarjeta -->
+                  <div class="col-lg-4 mb-4">
+                    <div class="bg-white rounded-lg shadow p-4">
+                      <h2 class="h5 font-weight-bold text-center mb-4">Adobe XD</h2>
+  
+                      <!-- Progress bar 1 -->
+                      <div class="progress mx-auto" data-value='90'>
+                        <span class="progress-left">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                          <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+                        </div>
+                      </div>
+                      <!-- END -->
+  
+                      <!-- Demo info -->
+                      <div class="row text-center mt-4">
+                        <div class="col-6 border-right">
+                          <div class="h4 font-weight-bold mb-0">90%</div><span class="small text-gray">Last week</span>
+                        </div>
+                        <div class="col-6">
+                          <div class="h4 font-weight-bold mb-0">90%</div><span class="small text-gray">Last month</span>
+                        </div>
+                      </div>
+                      <!-- END -->
+                    </div>
+                  </div>
+                  <!-- tarjeta -->
                   <div class="col-lg-4 mb-4">
                     <div class="bg-white rounded-lg shadow p-4">
                       <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
@@ -295,13 +422,13 @@
                       <!-- END -->
                     </div>
                   </div>
-  
+                  <!-- tarjeta -->
                   <div class="col-lg-4 mb-4">
                     <div class="bg-white rounded-lg shadow p-4">
                       <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
   
                       <!-- Progress bar 1 -->
-                      <div class="progress mx-auto" data-value='80'>
+                      <div class="progress mx-auto" data-value='100'>
                         <span class="progress-left">
                           <span class="progress-bar border-primary"></span>
                         </span>
@@ -309,7 +436,7 @@
                           <span class="progress-bar border-primary"></span>
                         </span>
                         <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                          <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+                          <div class="h2 font-weight-bold">100<sup class="small">%</sup></div>
                         </div>
                       </div>
                       <!-- END -->
@@ -317,19 +444,19 @@
                       <!-- Demo info -->
                       <div class="row text-center mt-4">
                         <div class="col-6 border-right">
-                          <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                          <div class="h4 font-weight-bold mb-0">100%</div><span class="small text-gray">Last week</span>
                         </div>
                         <div class="col-6">
-                          <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                          <div class="h4 font-weight-bold mb-0">100%</div><span class="small text-gray">Last month</span>
                         </div>
                       </div>
                       <!-- END -->
                     </div>
                   </div>
-  
+                  <!-- tarjeta -->
                   <div class="col-lg-4 mb-4">
                     <div class="bg-white rounded-lg shadow p-4">
-                      <h2 class="h5 font-weight-bold text-center mb-4">jQuery</h2>
+                      <h2 class="h5 font-weight-bold text-center mb-4">React JS</h2>
   
                       <!-- Progress bar 1 -->
                       <div class="progress mx-auto" data-value='75'>
@@ -348,10 +475,103 @@
                       <!-- Demo info -->
                       <div class="row text-center mt-4">
                         <div class="col-6 border-right">
-                          <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+                          <div class="h4 font-weight-bold mb-0">75%</div><span class="small text-gray">Last week</span>
                         </div>
                         <div class="col-6">
-                          <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                          <div class="h4 font-weight-bold mb-0">75%</div><span class="small text-gray">Last month</span>
+                        </div>
+                      </div>
+                      <!-- END -->
+                    </div>
+                  </div>
+                  <!-- tarjeta -->
+                  <div class="col-lg-4 mb-4">
+                    <div class="bg-white rounded-lg shadow p-4">
+                      <h2 class="h5 font-weight-bold text-center mb-4">React Native</h2>
+  
+                      <!-- Progress bar 1 -->
+                      <div class="progress mx-auto" data-value='70'>
+                        <span class="progress-left">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                          <div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+                        </div>
+                      </div>
+                      <!-- END -->
+  
+                      <!-- Demo info -->
+                      <div class="row text-center mt-4">
+                        <div class="col-6 border-right">
+                          <div class="h4 font-weight-bold mb-0">70%</div><span class="small text-gray">Last week</span>
+                        </div>
+                        <div class="col-6">
+                          <div class="h4 font-weight-bold mb-0">70%</div><span class="small text-gray">Last month</span>
+                        </div>
+                      </div>
+                      <!-- END -->
+                    </div>
+                  </div>
+                  <!-- tarjeta -->
+                  <div class="col-lg-4 mb-4">
+                    <div class="bg-white rounded-lg shadow p-4">
+                      <h2 class="h5 font-weight-bold text-center mb-4">Vue JS</h2>
+  
+                      <!-- Progress bar 1 -->
+                      <div class="progress mx-auto" data-value='70'>
+                        <span class="progress-left">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                          <div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+                        </div>
+                      </div>
+                      <!-- END -->
+  
+                      <!-- Demo info -->
+                      <div class="row text-center mt-4">
+                        <div class="col-6 border-right">
+                          <div class="h4 font-weight-bold mb-0">70%</div><span class="small text-gray">Last week</span>
+                        </div>
+                        <div class="col-6">
+                          <div class="h4 font-weight-bold mb-0">70%</div><span class="small text-gray">Last month</span>
+                        </div>
+                      </div>
+                      <!-- END -->
+                    </div>
+                  </div>
+                  <!-- tarjeta -->
+                  <div class="col-lg-4 mb-4">
+                    <div class="bg-white rounded-lg shadow p-4">
+                      <h2 class="h5 font-weight-bold text-center mb-4">JQuery</h2>
+  
+                      <!-- Progress bar 1 -->
+                      <div class="progress mx-auto" data-value='70'>
+                        <span class="progress-left">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar border-primary"></span>
+                        </span>
+                        <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                          <div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+                        </div>
+                      </div>
+                      <!-- END -->
+  
+                      <!-- Demo info -->
+                      <div class="row text-center mt-4">
+                        <div class="col-6 border-right">
+                          <div class="h4 font-weight-bold mb-0">70%</div><span class="small text-gray">Last week</span>
+                        </div>
+                        <div class="col-6">
+                          <div class="h4 font-weight-bold mb-0">70%</div><span class="small text-gray">Last month</span>
                         </div>
                       </div>
                       <!-- END -->
@@ -361,22 +581,11 @@
                 <div class="row">
                   <div class="col-md-6 animate-box">
                     <div class="progress-wrap ftco-animate">
-                      <h3>Photoshop</h3>
+                      <h3>Javascript</h3>
                       <div class="progress">
                          <div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
                           aria-valuemin="0" aria-valuemax="100" style="width:90%">
                           <span>90%</span>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 animate-box">
-                    <div class="progress-wrap ftco-animate">
-                      <h3>jQuery</h3>
-                      <div class="progress">
-                         <div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-                          aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                          <span>85%</span>
                           </div>
                       </div>
                     </div>
@@ -405,7 +614,18 @@
                   </div>
                   <div class="col-md-6 animate-box">
                     <div class="progress-wrap ftco-animate">
-                      <h3>WordPress</h3>
+                      <h3>Python</h3>
+                      <div class="progress">
+                         <div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+                          aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                          <span>85%</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                      <h3>PHP</h3>
                       <div class="progress">
                          <div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
                           aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -416,7 +636,18 @@
                   </div>
                   <div class="col-md-6 animate-box">
                     <div class="progress-wrap ftco-animate">
-                      <h3>SEO</h3>
+                      <h3>C#</h3>
+                      <div class="progress">
+                         <div class="progress-bar color-6" role="progressbar" aria-valuenow="60"
+                          aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                          <span>60%</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                      <h3>SQL</h3>
                       <div class="progress">
                          <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
                           aria-valuemin="0" aria-valuemax="100" style="width:80%">
@@ -425,10 +656,32 @@
                       </div>
                     </div>
                   </div>
+                  <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                      <h3>AWS</h3>
+                      <div class="progress">
+                         <div class="progress-bar color-6" role="progressbar" aria-valuenow="50"
+                          aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                          <span>50%</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 animate-box">
+                    <div class="progress-wrap ftco-animate">
+                      <h3>Google Cloud</h3>
+                      <div class="progress">
+                         <div class="progress-bar color-6" role="progressbar" aria-valuenow="40"
+                          aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                          <span>40%</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div id="page-4" class= "page four">
-                <h2 class="heading">Awards</h2>
+                <h2 class="heading">Goals</h2>
                 <div class="resume-wrap d-flex ftco-animate">
                   <div class="icon d-flex align-items-center justify-content-center">
                     <span class="flaticon-ideas"></span>
@@ -496,7 +749,7 @@
                 </span>
                 <div class="desc">
                   <h3 class="mb-5">Web Design</h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
                 </div>
               </a>
             </div>
@@ -506,8 +759,8 @@
                   <i class="flaticon-flasks"></i>
                 </span>
                 <div class="desc">
-                  <h3 class="mb-5">Phtography</h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3 class="mb-5">Cloud Computing</h3>
+                  <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
                 </div>
               </a>
             </div>
@@ -518,7 +771,7 @@
                 </span>
                 <div class="desc">
                   <h3 class="mb-5">Web Developer</h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
                 </div>
               </a>
             </div>
@@ -530,7 +783,7 @@
                 </span>
                 <div class="desc">
                   <h3 class="mb-5">App Developing</h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
                 </div>
               </a>
             </div>
@@ -540,8 +793,8 @@
                   <i class="flaticon-ux-design"></i>
                 </span>
                 <div class="desc">
-                  <h3 class="mb-5">Branding</h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <h3 class="mb-5">UI/UX Designer</h3>
+                  <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
                 </div>
               </a>
             </div>
@@ -552,7 +805,7 @@
                 </span>
                 <div class="desc">
                   <h3 class="mb-5">Product Strategy</h3>
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                  <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
                 </div>
               </a>
             </div>
@@ -566,8 +819,8 @@
           <div class="row no-gutters justify-content-center pb-5">
             <div class="col-md-12 heading-section text-center ftco-animate">
               <h1 class="big big-2">Projects</h1>
-              <h2 class="mb-4">Our Projects</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+              <h2 class="mb-4">Projects</h2>
+              <p>If an IT project works the first time, it was in your dreams. Time to get up and get to work.</p>
             </div>
           </div>
           <div class="row no-gutters">
@@ -575,8 +828,8 @@
               <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('/assets/resume/images/work-1.jpg');">
                 <div class="overlay"></div>
                 <div class="text text-center p-4">
-                  <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                  <span>Web Design</span>
+                  <h3><a href="#">Automagno Core System</a></h3>
+                  <span>Web App Design</span>
                 </div>
               </div>
             </div>
@@ -584,8 +837,8 @@
               <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('/assets/resume/images/work-2.jpg');">
                 <div class="overlay"></div>
                 <div class="text text-center p-4">
-                  <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                  <span>Web Design</span>
+                  <h3><a href="#">Serenamente App</a></h3>
+                  <span>App Developing</span>
                 </div>
               </div>
             </div>
@@ -594,35 +847,8 @@
               <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('/assets/resume/images/work-3.jpg');">
                 <div class="overlay"></div>
                 <div class="text text-center p-4">
-                  <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                  <span>Web Design</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('/assets/resume/images/work-4.jpg');">
-                <div class="overlay"></div>
-                <div class="text text-center p-4">
-                  <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                  <span>Web Design</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('/assets/resume/images/work-5.jpg');">
-                <div class="overlay"></div>
-                <div class="text text-center p-4">
-                  <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                  <span>Web Design</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('/assets/resume/images/work-6.jpg');">
-                <div class="overlay"></div>
-                <div class="text text-center p-4">
-                  <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                  <span>Web Design</span>
+                  <h3><a href="#">Autoland</a></h3>
+                  <span>REST API Solution</span>
                 </div>
               </div>
             </div>
@@ -669,7 +895,7 @@
         </div>
       </section>
   
-  
+<!--   
       <section class="ftco-section" id="blog-section">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
@@ -733,15 +959,15 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
   
-      <section class="ftco-section ftco-hireme img" style="background-image: url('/assets/resume/images/bg_1.jpg')">
+      <section class="ftco-section ftco-hireme img" style="background-image: url('https://technext.github.io/ronaldo/images/bg_1.jpg')">
         <div class="overlay"></div>
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-7 ftco-animate text-center">
-              <h2>I'm <span>Available</span> for freelancing</h2>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <h2>I'm <span>Available</span> for building amazing things</h2>
+              <p>If an IT project works the first time, it was in your dreams. Time to get up and get to work.</p>
               <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Hire me</a></p>
             </div>
           </div>
@@ -754,7 +980,7 @@
             <div class="col-md-7 heading-section text-center ftco-animate">
               <h1 class="big big-2">Contact</h1>
               <h2 class="mb-4">Contact Me</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+              <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
             </div>
           </div>
   
@@ -766,7 +992,7 @@
                 </div>
                 <div>
                   <h3 class="mb-4">Address</h3>
-                  <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                  <p>Calle 75 # 82 65 Bogotá, Colombia</p>
                 </div>
               </div>
             </div>
@@ -777,7 +1003,7 @@
                 </div>
                 <div>
                   <h3 class="mb-4">Contact Number</h3>
-                  <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+                  <p><a href="tel://1234567920">+57 305 7842456</a></p>
                 </div>
               </div>
             </div>
@@ -788,7 +1014,7 @@
                 </div>
                 <div>
                   <h3 class="mb-4">Email Address</h3>
-                  <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                  <p><a href="mailto:santiagoapp@gmail.com">santiagoapp@gmail.com</a></p>
                 </div>
               </div>
             </div>
@@ -799,7 +1025,7 @@
                 </div>
                 <div>
                   <h3 class="mb-4">Website</h3>
-                  <p><a href="#">yoursite.com</a></p>
+                  <p><a href="#">santiagoapp.com</a></p>
                 </div>
               </div>
             </div>
@@ -879,9 +1105,9 @@
                 <h2 class="ftco-heading-2">Have a Questions?</h2>
                 <div class="block-23 mb-3">
                   <ul>
-                    <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                    <li><span class="icon icon-map-marker"></span><span class="text">Calle 75 # 82 65 Bogotá. Colombia</span></li>
+                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+57 305 7842456</span></a></li>
+                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">santiagoapp@gmail.com</span></a></li>
                   </ul>
                 </div>
               </div>
@@ -890,9 +1116,7 @@
           <div class="row">
             <div class="col-md-12 text-center">
   
-              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+              <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Building Amazing Things</p>
             </div>
           </div>
         </div>
